@@ -1,0 +1,95 @@
+/* Definindo as cores principais */
+:root {
+    --cor-verde-claro: #A8D08D;
+    --cor-verde-escuro: #006400;
+    --cor-branco: #FFFFFF;
+}
+
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-branco);
+    color: var(--cor-verde-escuro);
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: var(--cor-verde-escuro);
+    color: var(--cor-branco);
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilo das seções */
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid var(--cor-verde-claro);
+    border-radius: 10px;
+    background-color: var(--cor-verde-claro);
+}
+
+/* Títulos das seções */
+h2 {
+    font-size: 22px;
+    color: var(--cor-verde-escuro);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Texto nas seções */
+.chamada-texto h1 {
+    font-size: 20px;
+    color: var(--cor-verde-escuro);
+    text-align: center;
+}
+
+.chamada-texto p {
+    font-size: 16px;
+    color: var(--cor-verde-escuro);
+    text-align: justify;
+}
+
+/* Estilo das imagens */
+.imagem-bimestre img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: var(--cor-verde-escuro);
+    color: var(--cor-branco);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Botões */
+button {
+    background-color: var(--cor-verde-escuro);
+    color: var(--cor-branco);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: var(--cor-verde-claro);
+    color: var(--cor-verde-escuro);
+}
